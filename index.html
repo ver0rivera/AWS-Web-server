@@ -1,144 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Shop Design</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Verónica Marilyn Rivera Manzanero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-      body {
-        background-color: #f5e5fb;
-      }
+        .left-sidebar {
+            background-color: #25365c;  /* Color de fondo */
+            color: #fff;  /* Color del texto */
+            height: 35vh; /* Ocupa el alto completo de la vista */
+            padding: 20px; /* Espacio interior */
+        }
 
-      .side-menu {
-        background-color: #e2c4e6;
-        height: 100vh;
-        padding-top: 2rem;
-      }
+        /* Estilo para los enlaces en la barra lateral izquierda para que tengan un color diferente al predeterminado */
+        .left-sidebar a {
+            color: #fff;  /* Color del texto del enlace */
+            text-decoration: none;  /* Remover subrayado */
+        }
 
-      .card-product {
-        background-color: #f5e5fb;
-        border: none;
-      }
-
-      .btn-purple {
-        background-color: #b386c2;
-        color: white;
-      }
+        .left-sidebar a:hover {
+            color: #ddd;  /* Color al pasar el mouse sobre el enlace */
+            text-decoration: none;  /* Mantener sin subrayado */
+        }
     </style>
-  </head>
+</head>
+<body>
 
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <!-- Side Menu -->
-        <aside class="col-3 side-menu d-flex flex-column align-items-start p-3">
-          <nav class="nav flex-column">
-            <a class="nav-link active mb-3" href="#">Latte</a>
-            <a class="nav-link mb-3" href="#">Espresso</a>
-            <a class="nav-link mb-3" href="#">Frappe</a>
-            <a class="nav-link mb-3" href="#">Bakery</a>
-            <a class="nav-link mb-3" href="#">Specials</a>
-            <a class="nav-link" href="#">Healthy</a>
-          </nav>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="col-9">
-          <header class="text-center mt-5">
-            <h2>Coffee Shop Mid</h2>
-            <p>The best coffee in Mérida Yucatán</p>
-            <button class="btn btn-purple mb-5">Order now</button>
-          </header>
-
-          <section>
-            <h4 class="text-center">Our best Sellers ★</h4>
-            <div class="row justify-content-center mt-4 g-4">
-              <div class="col-3">
-                <div class="card card-product text-center h-100">
-                  <img
-                    src="./icons/macchiato.avif"
-                    alt="Caramel Icon"
-                    class="card-img-top mx-auto mb-2"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Caramel Macchiato</h5>
-                    <a
-                      href="https://www.starbucks.com.mx/producto/caramel-macchiato"
-                      class="btn btn-purple mt-2"
-                      >More Info.</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card card-product text-center h-8">
-                  <img
-                    src="./icons/moka.png"
-                    alt="Moka Icon"
-                    class="card-img-top mx-auto mb-2"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Moka Frappe</h5>
-                    <a
-                      href="https://www.starbucks.com.mx/producto/mocha"
-                      class="btn btn-purple mt-2"
-                      >More Info.</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card card-product text-center h-100">
-                  <img
-                    src="./icons/matcha.png"
-                    alt="Matcha Icon"
-                    class="card-img-top mx-auto mb-2"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Matcha Latte</h5>
-                    <a
-                      href="https://www.starbucks.com.mx/producto/matcha-green-tea-cream-frappuccinor"
-                      class="btn btn-purple mt-2"
-                      >More Info.</a
-                    >
-                  </div>
-                </div>
-              </div>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <h1 class="display-4">Verónica Marilyn Rivera Manzanero</h1>
+            <h3>Software Engineering student</h3>
+            <p>I am passionate about technologies related to human computer interaction, user experience and software development. My goal is to become a web developer to design solutions that ensure quality and customer satisfaction.</p>
+            
+            <!-- Contact Information -->
+            <div class="div class=col-md-4 left-sidebar">
+                <h4>Contact</h4>
+                <ul class="col-md-4 left-sidebar">
+                    <li>Phone: (+52) 999-364-9975</li>
+                    <li>Email: veronicarivera.m@gmail.com</li>
+                    <li>LinkedIn: <a href="https://trailblazer.me/id/vrivera37">LinkedInProfile</a></li>
+                </ul>
             </div>
-          </section>
 
-          <!-- Footer -->
-          <footer
-            class="d-flex justify-content-between align-items-center mt-5"
-          >
-            <p>Contact us!</p>
-            <div class="d-flex align-items-center">
-              <img src="./icons/phone.png" alt="Ellipsis Icon" class="me-2" />
-              <img src="./icons/textsms.png" alt="Mail Icon" class="me-2" />
-              <img
-                src="./icons/facebook.png"
-                alt="Facebook Icon"
-                class="me-2"
-              />
+            <!-- Education -->
+            <div class="div class=col-md-4 left-sidebar">
+                <h4>Education</h4>
+                <strong>Software Engineer</strong>
+                <p>Autonomous University of Yucatán (UADY) Mathematics Faculty</p>
+                <p>Expected graduation: 2024</p>
+                <p>GPA: 92.4/100</p>
             </div>
-          </footer>
 
-          <!-- Bootstrap 5 bottom navigation bar -->
-          <nav class="navbar fixed-bottom navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Coffee Shop Mid</a>
-              <button class="btn btn-purple" type="submit">Order Now</button>
+            <!-- Expertise -->
+            <div class="div class=col-md-4 left-sidebar">
+                <h4>Expertise</h4>
+                <ul>
+                    <li>UI/UX (1 year and 5 months)</li>
+                    <li>Project management (2 years-Certificate from Google)</li>
+                    <li>JavaScript (1 year and 4 months)</li>
+                    <li>Java (1 year and 9 months)</li>
+                    <li>Python (1 year and 7 months-Certificate from University of Michigan)</li>
+                    <li>React (1 year and 6 months)</li>
+                </ul>
             </div>
-          </nav>
-        </main>
-      </div>
+
+            <!-- Language -->
+            <div class="div class=col-md-4 left-sidebar">
+                <h4>Language</h4>
+                <ul>
+                    <li>English: B2 Intermediate</li>
+                    <li>Spanish: Native Language</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Experience and projects -->
+        <div class="col-lg-8">
+            <h2>Experience and projects</h2>
+            <div class="my-3">
+                <h4>Nov 2021 - May 2022</h4>
+                <strong>Konter</strong>
+                <h5>Front-end developer</h5>
+                <p>In this project I was able to participate in the development of the visual interface of the website of an agency company. I participated in the creation of prototypes in Figma and in the implementation of the design using HTML5, CSS, Typescript, React and libraries such as Bootstrap.</p>
+            </div>
+
+            <div class="my-3">
+                <h4>Aug 2022 - Dec 2022</h4>
+                <strong>Fmat Virtual Library-UADY</strong>
+                <h5>Front-end and Back-end developer</h5>
+                <p>For this web development project, we created a virtual library for students where we provide them with help materials for all semesters. I participated in the design of the graphic interface and its implementation. For the backend we used the Django framework, I participated in the creation of the database and the triggers to execute various actions related to searches. The above using MySQL.</p>
+            </
+        </div>
+
+        <div class="my-3">
+            <h4>Jan 2023 - May 2023</h4>
+            <strong>Doctor Payaso Fundraising System - Agile Enterprise Project Delivery</strong>
+            <h5>Salesforce Developer and Administrator team lead</h5>
+            <p>During the development of this project I was assigned as the administrator team leader. I participated in the implementations that required the management of flows, validation rules, email automation, page layouts, role data security and data model. I also implemented soft skills such as leadership and teamwork, to move the project forward. Finally, I implemented triggers through apex classes to achieve certain functionalities required by the client.</p>
+        </div>
+
+        <!-- Extracurricular activities -->
+        <div class="my-4">
+            <h3>Extracurricular activities</h3>
+
+            <div class="my-3">
+                <h4>Aug 202                    1 - Sep 2022</h4>
+                <strong>President of the "Workshop" organization</strong>
+                <p>During this time I was able to acquire soft skills such as leadership, project organization and teamwork. I led a team of 35 people, working to make more than 10 events, including a massive one "The workshop fest".</p>
+            </div>
+
+            <div class="my-3">
+                <h4>Workshops and talks (March 26 2023)</h4>
+
+                <strong>Python - Web Scraping</strong>
+                <p>In this workshop I presented the use of libraries using the Python language to perform web scraping applying good practices.</p>
+
+                <strong>Talk - "The power of the soft skills"</strong>
+                <p>I gave this talk at the "Global Azure Mérida" event and I was able to raise awareness of the importance of social and emotional skills through fundamental principles, both in education and in the workplace.</p>
+            </div>
+        </div>
     </div>
+</div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
+
